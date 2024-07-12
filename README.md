@@ -37,13 +37,14 @@ The model training and evaluation process is implemented in the `Phishing Websit
 ## Results
 The performance of each model is measured and compared. The results are as follows:
 
-Copy             ML Model  Train Accuracy  Test Accuracy  Loss    val_loss
-1           Random Forest         0.991         0.999     0.3391  0.2384
-2  Multilayer Perceptrons         0.991         0.999     0.2217  0.1040
-0           Decision Tree         0.991         0.998     0.1723  0.1506
-5                     SVM         0.991         0.998     0.1535  0.1362
-3                 XGBoost         0.990         0.998     0.1252  0.1230
-4             AutoEncoder         0.364         0.359     0.1098  0.1134
+| ML Model                | Train Accuracy | Test Accuracy | Loss   | val_loss |
+|-------------------------|----------------|---------------|--------|----------|
+| Random Forest           | 0.991          | 0.999         | 0.3391 | 0.2384   |
+| Multilayer Perceptrons  | 0.991          | 0.999         | 0.2217 | 0.1040   |
+| Decision Tree           | 0.991          | 0.998         | 0.1723 | 0.1506   |
+| SVM                     | 0.991          | 0.998         | 0.1535 | 0.1362   |
+| XGBoost                 | 0.990          | 0.998         | 0.1252 | 0.1230   |
+| AutoEncoder             | 0.364          | 0.359         | 0.1098 | 0.1134   |
 
 The Random Forest and Multilayer Perceptrons models show the best performance with 99.9% test accuracy.
 
